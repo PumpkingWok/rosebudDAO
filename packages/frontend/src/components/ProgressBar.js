@@ -11,7 +11,7 @@ const ProgressBar = ({ yes, no }) => {
     <>
       <div style={{ position: "relative" }}>
         <Progress
-          percent={percentYes + percentNo}
+          percent={percentNo}
           color="red"
           size="medium"
           progress='percent'
